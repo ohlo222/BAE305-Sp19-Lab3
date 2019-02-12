@@ -51,10 +51,24 @@ Part 4- TinkerCAD Circuits
 ------Insert Table of Results-----
 ------Insert TinkerCAD------
 # Discussion
+From an overall standpoint, the values that were simulated on PartSim were very close to the actual measured values. This showed that the errors could be caused by human error and that the circuits were properly built.
+
 - Q1: In your lab report show currents entering and leaving a node using equations. (Ex: I5 = I6 + I7). 
 
-- Q2: Which branches have the same voltage? Which do not?
+- Node 1 
+  - I1 = I2 + I4 + I5
 
+Simulated: 2.633mA = 0.944mA + 0.662mA + 1.026mA
+Actual: 
+
+- Node 2
+  - I5 = I6 + I7
+  
+ Simulated: 1.026mA = 1.015mA + 0.009299mA
+ Actual: 
+
+- Q2: Which branches have the same voltage? Which do not?
+When looking at the voltage across branches R2 and R3 is the same voltage as R4. As well as, R6 is equal to R7 and R8. 
 - Q3: Why is there a difference in the voltage in some branches? 
 
 - Q4: What is the sensor resistance (R1) when the sensor reads 3.63V?
