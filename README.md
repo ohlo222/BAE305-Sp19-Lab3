@@ -68,8 +68,9 @@ Actual:
  Actual: 
 
 - Q2: Which branches have the same voltage? Which do not?
-When looking at the voltage across branches R2 and R3 is the same voltage as R4. As well as, R6 is equal to R7 and R8. 
-- Q3: Why is there a difference in the voltage in some branches? 
+
+When looking at the voltage across branches R2 and R3 is the same voltage as R4. As well as, R6 is equal to R7 and R8. Meaning, they share the same nodes and are in parallel with each other. So, wehn they are placed in series, it creates a voltage difference across the resistor. Because R5 is in series with the two branches in parallel, this creates the two different voltages. 
+
 
 - Q4: What is the sensor resistance (R1) when the sensor reads 3.63V?
 
